@@ -1,0 +1,12 @@
+{
+  "name": "xmlbuilder-packup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "make:xmlbuilder": "browserify -s xmlbuilder --bare ./node_modules/xmlbuilder/lib/index.js -o xmlbuilder.js"
+  },
+  "dependencies": {
+    "xmlbuilder": "^15.1.1"
+  }
+}
